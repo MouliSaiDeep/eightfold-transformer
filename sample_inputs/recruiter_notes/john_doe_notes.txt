@@ -1,0 +1,6 @@
+Candidate Name: John Doe
+John Doe currently works as a Technical Lead at Google.
+He has 10 years of experience in full-stack web development.
+He is based in New York City.
+Key skills observed: Java, Python, and SQL.
+Very communicative and solid coder.
