@@ -1,0 +1,13 @@
+target/
+*.class
+dependency-reduced-pom.xml
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+*.log
+output_*.json
+*_output.json
+output.json
+custom_output.json

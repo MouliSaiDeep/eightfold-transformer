@@ -1,0 +1,20 @@
+{
+  "fields": [
+    {"path": "candidate_id", "type": "string", "required": true},
+    {"path": "full_name", "type": "string", "required": true},
+    {"path": "emails", "type": "string[]", "required": true},
+    {"path": "phones", "type": "string[]", "required": false},
+    {"path": "location.city", "from": "location.city", "type": "string", "required": false},
+    {"path": "location.region", "from": "location.region", "type": "string", "required": false},
+    {"path": "location.country", "from": "location.country", "type": "string", "required": false},
+    {"path": "github_link", "from": "links.github", "type": "string", "required": false},
+    {"path": "headline", "type": "string", "required": false},
+    {"path": "years_experience", "type": "integer", "required": false},
+    {"path": "skill_names", "from": "skills[].name", "type": "string[]", "required": false, "normalize": "canonical"},
+    {"path": "overall_confidence", "type": "double", "required": true}
+  ],
+  "include_confidence": false,
+  "include_provenance": false,
+  "on_missing": "null",
+  "source_priority": ["Recruiter CSV", "GitHub Profile API", "Recruiter Notes"]
+}
