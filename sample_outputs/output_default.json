@@ -1,0 +1,40 @@
+[ {
+  "candidate_id" : "836f82db99121b34",
+  "full_name" : "John Doe",
+  "emails" : [ "john.doe@example.com" ],
+  "phones" : [ "+14155552671" ],
+  "location.city" : "New York City",
+  "location.region" : null,
+  "location.country" : null,
+  "github_link" : null,
+  "headline" : "Software Engineer",
+  "years_experience" : 10,
+  "skill_names" : [ "java", "python", "sql" ],
+  "overall_confidence" : 0.57
+}, {
+  "candidate_id" : "a50e5aca9ac28948",
+  "full_name" : "Bob Johnson",
+  "emails" : [ "bob.johnson@example.com" ],
+  "phones" : [ ],
+  "location.city" : null,
+  "location.region" : null,
+  "location.country" : null,
+  "github_link" : null,
+  "headline" : "Senior Engineer",
+  "years_experience" : null,
+  "skill_names" : [ ],
+  "overall_confidence" : 0.7
+}, {
+  "candidate_id" : "ad3fa33274f30e5a",
+  "full_name" : "The Octocat",
+  "emails" : [ "octocat@github.com" ],
+  "phones" : [ "+18005550199" ],
+  "location.city" : "San Francisco",
+  "location.region" : null,
+  "location.country" : null,
+  "github_link" : "https://github.com/octocat",
+  "headline" : "Developer Relations",
+  "years_experience" : null,
+  "skill_names" : [ "css", "html", "ruby" ],
+  "overall_confidence" : 0.66
+} ]

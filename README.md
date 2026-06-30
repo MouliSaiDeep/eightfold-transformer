@@ -64,6 +64,16 @@ mvn clean package
 ```
 This builds the package under `target/transformer-1.0.jar`.
 
+### CLI Command Structure
+```bash
+java -jar target/transformer-1.0.jar \
+  --csv <path_to_recruiter_csv> \
+  [--github <github_username>] \
+  [--notes <path_to_recruiter_notes_txt>] \
+  --config <path_to_config_json> \
+  --output <path_to_output_json>
+```
+
 ### How to Run
 
 > [!NOTE]
@@ -162,3 +172,8 @@ $$\text{Confidence} = \text{Base Confidence} \times \text{Agreement Multiplier} 
 - **Scraping LinkedIN**: Requires web scraping or authenticated APIs which are out of scope.
 - **Resume PDF Extraction**: Out of scope for this plain-text JSON/CSV workflow.
 - **Authentication/OAuth**: Uses only unauthenticated requests to public API endpoints.
+
+---
+
+## Video Demo: 
+https://youtu.be/zvY3_xzcfRE

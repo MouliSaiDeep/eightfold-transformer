@@ -1,0 +1,112 @@
+[ {
+  "full_name" : {
+    "value" : "John Doe",
+    "confidence" : 0.7,
+    "provenance" : [ {
+      "field" : "full_name",
+      "source" : "Recruiter CSV",
+      "method" : "CSV Ingestion"
+    } ]
+  },
+  "primary_email" : {
+    "value" : "john.doe@example.com",
+    "confidence" : 0.7,
+    "provenance" : [ {
+      "field" : "emails",
+      "source" : "Recruiter CSV",
+      "method" : "CSV Ingestion"
+    } ]
+  },
+  "phone" : {
+    "value" : "+14155552671",
+    "confidence" : 0.7,
+    "provenance" : [ {
+      "field" : "phones",
+      "source" : "Recruiter CSV",
+      "method" : "CSV Ingestion"
+    } ]
+  },
+  "skill_names" : {
+    "value" : [ "java", "python", "sql" ],
+    "confidence" : 0.55,
+    "provenance" : [ {
+      "field" : "skills",
+      "source" : "Recruiter Notes",
+      "method" : "Keyword Scan"
+    } ]
+  }
+}, {
+  "full_name" : {
+    "value" : "Bob Johnson",
+    "confidence" : 0.7,
+    "provenance" : [ {
+      "field" : "full_name",
+      "source" : "Recruiter CSV",
+      "method" : "CSV Ingestion"
+    } ]
+  },
+  "primary_email" : {
+    "value" : "bob.johnson@example.com",
+    "confidence" : 0.7,
+    "provenance" : [ {
+      "field" : "emails",
+      "source" : "Recruiter CSV",
+      "method" : "CSV Ingestion"
+    } ]
+  },
+  "phone" : {
+    "value" : null,
+    "confidence" : 0.0,
+    "provenance" : [ {
+      "field" : "phones",
+      "source" : "none",
+      "method" : "no source had this field"
+    } ]
+  },
+  "skill_names" : {
+    "value" : [ ],
+    "confidence" : 0.0,
+    "provenance" : [ {
+      "field" : "skills",
+      "source" : "none",
+      "method" : "no source had this field"
+    } ]
+  }
+}, {
+  "full_name" : {
+    "value" : "The Octocat",
+    "confidence" : 0.91,
+    "provenance" : [ {
+      "field" : "full_name",
+      "source" : "Recruiter CSV & GitHub Profile API",
+      "method" : "Merge - Agreeing values"
+    } ]
+  },
+  "primary_email" : {
+    "value" : "octocat@github.com",
+    "confidence" : 0.7,
+    "provenance" : [ {
+      "field" : "emails",
+      "source" : "Recruiter CSV",
+      "method" : "CSV Ingestion"
+    } ]
+  },
+  "phone" : {
+    "value" : "+18005550199",
+    "confidence" : 0.7,
+    "provenance" : [ {
+      "field" : "phones",
+      "source" : "Recruiter CSV",
+      "method" : "CSV Ingestion"
+    } ]
+  },
+  "skill_names" : {
+    "value" : [ "css", "html", "ruby" ],
+    "confidence" : 0.55,
+    "provenance" : [ {
+      "field" : "skills",
+      "source" : "GitHub Profile API",
+      "method" : "GitHub API Fetch"
+    } ]
+  }
+} ]
